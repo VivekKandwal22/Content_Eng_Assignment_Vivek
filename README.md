@@ -1,9 +1,9 @@
---- System Health Monitoring Script (Content Engineering Assignment) ---
+--- **System Health Monitoring Script (Content Engineering Assignment)** ---
 
-Overview:
+**Overview**:
 This script collects key system health metrics including CPU usage, memory usage, disk usage, uptime, and network connectivity. It is designed to be safe, read-only, and lightweight for execution on production endpoints (OS Agnostic). Includes comments and self defined variables for ease of reading and better understanding.
 
-How to Run:
+**How to Run**:
 
 - Requires Python 3.x (Check your Python version using 'python --version' command)
 - git clone <repo-url> to download and run it locally on a IDE
@@ -11,7 +11,7 @@ How to Run:
 - Any IDE for ease of code reading and debugging (Vscode or Pycharm)
 
 
-📦 Prerequisites/ Dependencies
+📦 **Prerequisites/ Dependencies**
 Built-in Python Libraries Only
 
 This script does NOT use any third-party packages relies exclusively on standard Python libraries:
@@ -27,14 +27,14 @@ This script does NOT use any third-party packages relies exclusively on standard
 
 ➡️ No pip install required.
 
-Optional Features Implemented:
+**Optional Features Implemented:**
 - Network connectivity check
 - Top 5 processes by memory and CPU usage
 - Check for specific critical processes (Using pre-defined list)
 - JSON export
 - Logging in a text based log file (up to a number of lines threshold)
 
-Notes:
+**Notes:**
 - Script avoids privileged operations
 - All metrics are collected using native OS interfaces
 - Output is formatted for easy ingestion by automation platforms
