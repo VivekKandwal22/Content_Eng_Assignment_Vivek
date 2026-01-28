@@ -6,6 +6,7 @@ This script collects key system health metrics including CPU usage, memory usage
 How to Run:
 
 - Requires Python 3.x (Check your Python version using 'python --version' command)
+- git clone <repo-url> to download and run it locally on a IDE
 - Run with: python3 system_health_monitor.py
 - Any IDE for ease of code reading and debugging (Vscode or Pycharm)
 
